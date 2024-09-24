@@ -1,0 +1,138 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background: url('img/fotor.jpg') no-repeat center center;
+    background-size: cover;
+    color: white;
+    height: 100vh;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: right;
+    padding: 20px;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+ /* categorias */
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+ /*Titulo y slogan */
+.hero {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.hero h1 {
+    font-size: 48px;
+}
+
+.hero p {
+    font-size: 24px;
+    margin-bottom: 50px;
+}
+
+.barra-busqueda {
+    display: flex;
+    justify-content: center;
+    gap: 50px; /*espacio entre elementos*/
+    background: rgba(255, 255, 255, 1);
+    padding: 30px; /*largo */
+    max-width: 70%; /*ancho de la barra */
+    margin: 0 auto;
+    border-radius: 50px; 
+    
+
+}
+
+/*Labels input */
+.input-group {
+    display: flex;
+    flex-direction: column;
+    color: rgb(0, 0, 0)
+
+}
+.input-group label {
+    margin-bottom: 10px;
+
+}
+
+/*cuadritos inputs */
+.input-group input {
+    padding: 10px;
+    border: 1px solid #ccc; 
+    border-radius: 50px;
+}
+
+
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+}
+
+.search-icon {
+    display: inline-flex;
+    align-items: center;
+      position:relative;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    background-color: #120a82;
+    border-radius: 50%;
+    color: white;
+    text-decoration: none;
+    font-size: 24px;
+    transition: background-color 0.3s;
+  
+   
+    
+  
+}
+
+.search-icon:hover {
+    background-color: #0025cc;
+}
+
+.search-icon i {
+    margin: 0;
+}
+
+
+
+/* espaciado entre secciones */
+ #reservaciones, #contacto, #catalogo{
+    margin-top: 500px; /* espacio superior entre las secciones */
+}
+
+/* estilo del título y parrafo de cada seccion */
+h2 {
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 20px;
+    color: black;
+}
